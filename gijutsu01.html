@@ -1,0 +1,380 @@
+<meta name="googlebot" content="noindex">
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>図書館情報技術論</title>
+
+<style>
+
+/* =========================
+   全体
+========================= */
+
+body{
+    margin:0;
+    padding:55px 20px;
+    min-height:100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fdfdfd 0%,
+            #eef1f5 45%,
+            #e4e9ef 100%
+        );
+
+    font-family:
+        "Yu Gothic",
+        "Hiragino Sans",
+        sans-serif;
+
+    color:#59616b;
+}
+
+
+/* =========================
+   きらきら背景
+========================= */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+
+    background:
+        radial-gradient(
+            circle at 15% 15%,
+            rgba(255,255,255,.95) 0,
+            rgba(255,255,255,0) 18%
+        ),
+
+        radial-gradient(
+            circle at 85% 25%,
+            rgba(190,210,230,.35) 0,
+            rgba(190,210,230,0) 20%
+        ),
+
+        radial-gradient(
+            circle at 25% 85%,
+            rgba(255,255,255,.8) 0,
+            rgba(255,255,255,0) 20%
+        );
+}
+
+
+/* =========================
+   全体コンテナ
+========================= */
+
+.container{
+    max-width:900px;
+    margin:auto;
+    position:relative;
+}
+
+
+/* =========================
+   タイトル
+========================= */
+
+header{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+
+/* 上の飾り */
+
+.decor{
+    color:#aeb8c3;
+
+    font-size:1.25em;
+
+    letter-spacing:9px;
+
+    margin-bottom:15px;
+}
+
+
+/* タイトル */
+
+h1{
+    margin:0;
+
+    color:#68737e;
+
+    font-size:3em;
+
+    font-weight:bold;
+
+    letter-spacing:.15em;
+
+    text-shadow:
+        2px 2px 0 #ffffff;
+}
+
+
+/* サブタイトル */
+
+.subtitle{
+    margin-top:15px;
+
+    color:#8b98a6;
+
+    font-size:.95em;
+
+    letter-spacing:.08em;
+}
+
+
+/* 下の飾り */
+
+.kazari{
+    margin-top:20px;
+
+    color:#aebdca;
+
+    letter-spacing:8px;
+
+    font-size:1em;
+}
+
+
+/* =========================
+   本文ボックス
+========================= */
+
+.note{
+    position:relative;
+
+    background:
+        rgba(255,255,255,.88);
+
+    border:
+        2px solid #c5ccd4;
+
+    border-radius:24px;
+
+    padding:32px;
+
+    margin:30px 0;
+
+    line-height:2.1;
+
+    box-shadow:
+        0 8px 22px rgba(100,110,120,.15);
+}
+
+
+/* ボックス内の光 */
+
+.note::before{
+    content:"";
+
+    position:absolute;
+
+    top:10px;
+    left:18px;
+    right:18px;
+
+    height:1px;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent,
+            #dfe4e9,
+            transparent
+        );
+}
+
+
+/* =========================
+   見出し
+========================= */
+
+.midashi{
+
+    color:#687582;
+
+    font-size:1.3em;
+
+    font-weight:bold;
+
+    padding-bottom:10px;
+
+    margin-bottom:18px;
+
+    border-bottom:
+        2px solid #d4dbe2;
+
+    position:relative;
+}
+
+
+/* 見出しの小さな飾り */
+
+.midashi::before{
+    content:"✦";
+
+    color:#a8b6c3;
+
+    margin-right:10px;
+}
+
+
+/* =========================
+   本文
+========================= */
+
+.note p{
+    margin:0;
+}
+
+
+/* =========================
+   強調文字
+========================= */
+
+strong{
+    color:#657582;
+
+    font-weight:bold;
+}
+
+
+/* =========================
+   小さな区切り
+========================= */
+
+.divider{
+    text-align:center;
+
+    color:#aeb9c4;
+
+    letter-spacing:8px;
+
+    margin:35px 0;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<header>
+
+    <div class="decor">
+        ✦　✧　✦
+    </div>
+
+    <h1>
+        出身地の紹介
+    </h1>
+
+    <div class="subtitle">
+        札幌市
+    </div>
+
+    <div class="kazari">
+        ── ✦ ── ✧ ── ✦ ──
+    </div>
+
+</header>
+
+
+
+<div class="note">
+
+    <div class="midashi">
+        札幌市の魅力
+    </div>
+
+    <p>
+        私の出身地である札幌市の魅力を紹介します！
+    </p>
+
+</div>
+
+
+
+<div class="divider">
+    ✧　✦　✧
+</div>
+
+
+
+<div class="note">
+
+    <div class="midashi">
+        自然が近い
+    </div>
+
+    <p>
+     札幌駅には商業施設や飲食店が多く集まっています。一方、少し移動するだけで中島公園や円山動物園など自然を感じられるところが多くあります。特に、中島公園は地下鉄南北線さっぽろ駅から三駅しか離れていませんが、公園内の池でボートに乗ることができます。   
+    </p>
+
+</div>
+
+<div class="note">
+
+    <div class="midashi">
+        食べ物がおいしい
+    </div>
+
+    <p>
+        札幌市にはおいしい食べ物がたくさんあります。ラーメンやスープカレー、海鮮などおいしい食べ物であふれています。大通駅から徒歩四分でいける二条市場では、札幌の中心部であるにもかかわらず新鮮な海鮮を味わうことができます。朝の七時から営業しており、時間が足りなくなる旅行中にも寄り易い場所です。
+    </p>
+
+</div>
+
+<div class="note">
+
+    <div class="midashi">
+        四季を感じられる
+    </div>
+
+    <p>
+        北海道と言えば雪まつりやウィンタースポーツを思い浮かべる方が多いと思いますが、冬以外のイベントも楽しいです。春は定山渓温泉渓流鯉のぼり、夏は大沼湖水まつり、秋はオータムフェストなど楽しいイベントが盛りだくさん！
+    </p>
+
+</div>
+
+<div class="note">
+
+    <div class="midashi">
+        地下歩行空間
+    </div>
+
+    <p>
+        札幌には地下歩行空間、通称「チカホ」と呼ばれる道があります。冬でも外を通ることなく札幌、大通り、すすきのを行き来することができるので地元民も旅行者も多くの人が利用します。
+    </p>
+
+</div>
+<div class="note">
+
+    <div class="midashi">
+        あ
+    </div>
+
+    <p>
+        ここに本文を書きます。
+    </p>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
