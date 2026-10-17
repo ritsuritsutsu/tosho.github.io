@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>生ハムのおいしい食べ方</title>
+<style>
+:root{--bg:#fff7f3;--fg:#3a2420;--accent:#c2453a;--sub:#7a5b55;--card:#ffe3dc;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241513;--fg:#fbe9e4;--accent:#ff8a7a;--sub:#d2aaa2;--card:#3a2420}}
+:root[data-theme="dark"]{--bg:#241513;--fg:#fbe9e4;--accent:#ff8a7a;--sub:#d2aaa2;--card:#3a2420}
+html,body{height:100%;margin:0;overflow:hidden;background:var(--bg);color:var(--fg);
+font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif}
+.reveal{position:relative;width:100%;height:100%;overflow:hidden}
+.reveal .slides{position:absolute;width:100%;height:100%;top:0;left:0;margin:0;padding:0;text-align:center}
+.reveal .slides>section{display:none;position:absolute;width:100%;box-sizing:border-box;padding:0 40px}
+.reveal .slides>section.present{display:block!important}
+.reveal .slides>section.past,.reveal .slides>section.future,.reveal .slides>section[hidden],.reveal .slides>section[aria-hidden="true"]{display:none!important;visibility:hidden!important;opacity:0!important}
+.reveal .fragment{opacity:0;visibility:hidden;transition:opacity .3s}
+.reveal .fragment.visible{opacity:1;visibility:visible}
+h1{font-size:64px;color:var(--accent);margin:0 0 16px}
+h2{font-size:44px;color:var(--accent);margin:0 0 28px}
+p{font-size:30px;color:var(--sub);margin:8px 0}
+ul{list-style:none;padding:0;margin:0;text-align:left;display:inline-block}
+li{font-size:32px;margin:14px 0;padding:12px 20px;background:var(--card);border-radius:12px}
+li b{color:var(--accent)}
+.big{font-size:84px;margin:0}
+.nav{position:fixed;bottom:calc(12px + env(safe-area-inset-bottom,0px));right:14px;display:flex;gap:8px;z-index:5}
+.nav button{width:40px;height:40px;border-radius:50%;border:0;background:var(--accent);color:#fff;font-size:18px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<section>
+<p class="big">🍖</p>
+<h1>生ハムのおいしい食べ方</h1>
+<p>ひと手間で、いつもの一枚が変わる</p>
+</section>
+
+<section>
+<h2>生ハムってどんなもの？</h2>
+<ul>
+<li class="fragment"><b>塩漬け＋熟成</b>：加熱せず、時間でうま味を引き出す</li>
+<li class="fragment"><b>プロシュート</b>：イタリア。やさしい甘みと塩気</li>
+<li class="fragment"><b>ハモン・セラーノ／イベリコ</b>：スペイン。コクと香りが強め</li>
+</ul>
+</section>
+
+<section>
+<h2>まず：常温に戻す</h2>
+<p class="big">⏱ 10〜15分</p>
+<p class="fragment">冷たいままだと脂が固く、香りも立ちません</p>
+<p class="fragment">食べる直前に1枚ずつ広げると、ふんわり仕上がります</p>
+</section>
+
+<section>
+<h2>定番の組み合わせ</h2>
+<ul>
+<li class="fragment">🍈 <b>メロン・いちじく</b>：甘みと塩気の王道</li>
+<li class="fragment">🧀 <b>モッツァレラ・クリームチーズ</b>：まろやかさをプラス</li>
+<li class="fragment">🥑 <b>アボカド</b>：ねっとり食感が好相性</li>
+<li class="fragment">🍞 <b>バゲット＋オリーブオイル</b>：シンプルに</li>
+</ul>
+</section>
+
+<section>
+<h2>ちょい足しアレンジ</h2>
+<ul>
+<li class="fragment">🍕 焼き上がったピザに<b>あとのせ</b></li>
+<li class="fragment">🍝 パスタは<b>仕上げに和える</b>だけ（加熱しすぎない）</li>
+<li class="fragment">🥗 サラダに<b>ちぎって散らす</b>＋黒こしょう</li>
+<li class="fragment">🍚 冷奴やお茶漬けにのせて<b>和風</b>に</li>
+</ul>
+</section>
+
+<section>
+<h2>保存と注意点</h2>
+<ul>
+<li class="fragment"><b>開封後は早めに</b>：ラップで空気に触れないように冷蔵</li>
+<li class="fragment"><b>色が変わる・におう</b>ときは食べない</li>
+<li class="fragment"><b>妊娠中</b>は、非加熱の食肉製品について医師や自治体の案内を確認</li>
+</ul>
+</section>
+
+<section>
+<h1>おいしく食べよう！</h1>
+<p>常温に戻して、好きな相棒を見つけてください</p>
+<p class="big">🍷</p>
+</section>
+
+</div></div>
+<div class="nav"><button aria-label="前へ" onclick="Reveal.prev()">◀</button><button aria-label="次へ" onclick="Reveal.next()">▶</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+<script>
+Reveal.initialize({width:960,height:700,margin:0.04,controls:false,progress:true,hash:true,transition:'none',center:true});
+</script>
+</body>
+</html>
